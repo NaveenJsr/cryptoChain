@@ -1,0 +1,24 @@
+{
+  "name": "cryptochain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Naveen kr.",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "hex-to-binary": "^1.0.1",
+    "nodemon": "^3.0.1",
+    "pubnub": "^7.3.2"
+  }
+}
